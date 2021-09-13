@@ -1,0 +1,14 @@
+Problems:
+	I am able to have -h work and display a help message. However whenever I run with the argument -t sec I get a segmentation fault. I want to say it is coming from my addmsg() but I am not sure. 
+	I really struggled to understand how exactly to create the data structure and how to add that data structure into a list. The pointers are also still confusing to me, which I believe from my research my segmentation fault may be coming from a pointer I did incorrectly.
+
+
+How to compile:
+	To compile run make. Then ./driver will run code.
+	When ran with ./driver -h the program will display a help message.
+	When ran with ./driver -t sec the program will save a log message to messages.log ever sec seconds, but this does not work.
+
+Git:
+https://github.com/LisaStroud/4760/tree/master
+
+
